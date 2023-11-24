@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.nav-bar{
+    background-color: #10266b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar>h1 {
+    color: #ffff;
+    font-size: 6rem;
+    padding-right: 1rem;
+    background-color: #10266b;
+    text-decoration: none;
+}
+.nav-bar>h1:hover{
+    font-weight: 1000;
+}
+#logo{
+    width: 20rem;
+    background-color: #10266b;
+}
+#head{
+    font-size: 5rem;
+}
+#timer{
+    font-size: 5rem;
+}
+form>label{
+    font-size: 4rem;
+}
+input{
+    width: 3rem;
+    height: 3rem;
+    font-size: 4rem;
+    padding-left: 1rem;
+    margin: 1rem;
+}
+#ques{
+    display: flex;
+    justify-content:center ;
+    font-size: 4rem;
+    margin-top: 6%;
+}
+#opt1{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 6%;
+
+
+}
+#opt2{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 6%;
+}
+#opt3{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 6%;
+}
+button{
+    font-size: 3rem;
+    width: 13rem;
+    height: 5rem;
+    font-weight: 600;
+}
+button:hover{
+    background-color: #10266b;
+    color: #ffff;
+}
+
+@media(max-width:1252px){
+    html{
+        font-size: 60%;
+    }
+    .nav-bar>h1{
+        font-size: 3rem;
+    }
+}
+@media(max-width:1205px){
+    html{
+        font-size: 55%;
+    }
+    .nav-bar>h1{
+        font-size: 3rem;
+    }
+}
+@media(max-width:877px){
+    html{
+        font-size: 40%;
+    }
+    .nav-bar>h1{
+        font-size: 3rem;
+    }
+    .questions{
+        margin-top: 20%;
+    }
+}
+@media(max-width:655px){
+    html{
+        font-size: 32%;
+    }
+    .nav-bar>h1{
+        font-size: 4rem;
+    }
+    .questions{
+        margin-top: 30%;
+    }
+}
+@media(max-width:521px){
+    html{
+        font-size: 25%;
+    }
+    .nav-bar>h1{
+        font-size: 4rem;
+    }
+    .questions{
+        margin-top: 40%;
+    }
+}
+@media(max-width:301px){
+    html{
+        font-size: 20%;
+    }
+    .nav-bar>h1{
+        font-size: 4rem;
+    }
+    .questions{
+        margin-top: 60%;
+    }
+}
